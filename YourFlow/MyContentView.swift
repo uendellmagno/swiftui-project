@@ -42,11 +42,12 @@ struct MyContentView: View {
         .padding()
         .onAppear(){
             let i: Int = 2
-            let s: String = "this is a test"
+            let s = "this is a test"
             let b: Bool = true
             let f: Float = 2.5
+            let d = 3.5
             
-            print("The variables are: ", i, s, b, f)
+            print("The variables are: ", i, s, b, f, d)
             
         }
         //
