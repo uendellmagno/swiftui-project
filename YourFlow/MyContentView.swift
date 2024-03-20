@@ -15,15 +15,15 @@
 import SwiftUI
 //import SwiftData
 
-struct ContentView: View {
-//    @Environment(\.modelContext) private var modelContext
-//    @Query private var items: [Item]
+struct MyContentView: View {
+    //    @Environment(\.modelContext) private var modelContext
+    //    @Query private var items: [Item]
     
     @State var text: String = "Hello, world!"
     @State var clicks: Int = 0
     
     var body: some View {
-        VStack {
+        VStack(content: {
             Image (systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
@@ -38,17 +38,17 @@ struct ContentView: View {
                     self.clicks = 0
                 }
             }.padding()
+        })
+        .padding()
+        .onAppear(){
+            let i: Int = 2
+            let s: String = "this is a test"
+            let b: Bool = true
+            let f: Float = 2.5
+            
+            print("The variables are: ", i, s, b, f)
+            
         }
-                .padding()
-                .onAppear(){
-                    var i: Int = 2
-                    var s: String = "this is a test"
-                    var b: Bool = true
-                    var f: Float = 2.5
-                    
-                    print("The variables are: ", i, s, b, f)
-                    
-                }
         //
         //        NavigationSplitView {
         //            List {
@@ -102,6 +102,6 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    MyContentView()
         .modelContainer(for: Item.self, inMemory: true)
 }
