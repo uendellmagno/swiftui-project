@@ -9,7 +9,7 @@
 // .yourFormatting() for each element or for the overall, global element
 import SwiftUI
 
-struct ContentView: View {
+struct StanfordContentView: View {
     
     var body: some View {
         let emojis: Array<String> = ["🤔", "🤗", "🦅", "🥱"]
@@ -52,5 +52,5 @@ struct CardView: View {
 }
 
 #Preview {
-    ContentView().modelContainer(for: Item.self, inMemory: true)
+    StanfordContentView().modelContainer(for: Item.self, inMemory: true)
 }
