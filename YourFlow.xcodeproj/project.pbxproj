@@ -11,6 +11,7 @@
 		264C74022BACEE1800DD7822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C74012BACEE1800DD7822 /* ContentView.swift */; };
 		264C74062BACF43300DD7822 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C74052BACF43300DD7822 /* NavigationBar.swift */; };
 		264C740B2BACFA1300DD7822 /* GreetingsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C740A2BACFA1300DD7822 /* GreetingsBar.swift */; };
+		264C740E2BADCB7100DD7822 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 264C740D2BADCB7100DD7822 /* PostgresClientKit */; };
 		267970C92BA0B1D500E4FE38 /* YourFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970C82BA0B1D500E4FE38 /* YourFlowApp.swift */; };
 		267970CB2BA0B1D500E4FE38 /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970CA2BA0B1D500E4FE38 /* MyContentView.swift */; };
 		267970CD2BA0B1D500E4FE38 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970CC2BA0B1D500E4FE38 /* Item.swift */; };
@@ -69,6 +70,7 @@
 				26AC43772BA33B42005C0A20 /* FirebaseAnalytics in Frameworks */,
 				26AC437B2BA33B42005C0A20 /* FirebaseAppCheck in Frameworks */,
 				26AC43792BA33B42005C0A20 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				264C740E2BADCB7100DD7822 /* PostgresClientKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +205,7 @@
 				26AC43762BA33B42005C0A20 /* FirebaseAnalytics */,
 				26AC43782BA33B42005C0A20 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				26AC437A2BA33B42005C0A20 /* FirebaseAppCheck */,
+				264C740D2BADCB7100DD7822 /* PostgresClientKit */,
 			);
 			productName = YourFlow;
 			productReference = 267970C52BA0B1D500E4FE38 /* YourFlow.app */;
@@ -278,6 +281,7 @@
 			mainGroup = 267970BC2BA0B1D500E4FE38;
 			packageReferences = (
 				26AC43752BA33B42005C0A20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				264C740C2BADCB7100DD7822 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
 			);
 			productRefGroup = 267970C62BA0B1D500E4FE38 /* Products */;
 			projectDirPath = "";
@@ -660,6 +664,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		264C740C2BADCB7100DD7822 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		26AC43752BA33B42005C0A20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -671,6 +683,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		264C740D2BADCB7100DD7822 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 264C740C2BADCB7100DD7822 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
 		26AC43762BA33B42005C0A20 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 26AC43752BA33B42005C0A20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
