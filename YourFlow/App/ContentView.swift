@@ -14,12 +14,12 @@ struct ContentView: View {
             Text("Hello, World!")
                 .padding()
             
-            @State var ClickableBox = RoundedRectangle(cornerRadius: 12).size(CGSize(width: 150.0, height: 150.0))
-            HStack (content: {
-                ClickableBox.fill(.orange)
-                ClickableBox.fill(.red)
-                
-            })
+//            @State var ClickableBox = RoundedRectangle(cornerRadius: 12).size(CGSize(width: 150.0, height: 150.0))
+//            HStack (content: {
+//                ClickableBox.fill(.orange)
+//                ClickableBox.fill(.red)
+//                
+//            })
         }
     }
 }
