@@ -12,6 +12,15 @@
 		264C74062BACF43300DD7822 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C74052BACF43300DD7822 /* NavigationBar.swift */; };
 		264C740B2BACFA1300DD7822 /* GreetingsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C740A2BACFA1300DD7822 /* GreetingsBar.swift */; };
 		264C740E2BADCB7100DD7822 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 264C740D2BADCB7100DD7822 /* PostgresClientKit */; };
+		2656C4B52BAF20BE00D2EAEA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2656C4B42BAF20BE00D2EAEA /* Launch Screen.storyboard */; };
+		2656C4B82BAF254000D2EAEA /* QuickActionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4B72BAF254000D2EAEA /* QuickActionsGridView.swift */; };
+		2656C4BA2BAF255400D2EAEA /* DashboardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4B92BAF255400D2EAEA /* DashboardGridView.swift */; };
+		2656C4BC2BAF258300D2EAEA /* OrderTypeGridViewAlura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4BB2BAF258300D2EAEA /* OrderTypeGridViewAlura.swift */; };
+		2656C4C92BAF2C6E00D2EAEA /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4C82BAF2C6E00D2EAEA /* OrderType.swift */; };
+		2656C4CB2BAF2CE600D2EAEA /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4CA2BAF2CE500D2EAEA /* DataSourceMock.swift */; };
+		2656C4CD2BAF318B00D2EAEA /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4CC2BAF318B00D2EAEA /* OrderTypeView.swift */; };
+		2656C4CF2BAF5EF600D2EAEA /* ClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4CE2BAF5EF600D2EAEA /* ClientType.swift */; };
+		2656C4D12BAF658400D2EAEA /* ClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2656C4D02BAF658400D2EAEA /* ClientInfoView.swift */; };
 		267970C92BA0B1D500E4FE38 /* YourFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970C82BA0B1D500E4FE38 /* YourFlowApp.swift */; };
 		267970CB2BA0B1D500E4FE38 /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970CA2BA0B1D500E4FE38 /* MyContentView.swift */; };
 		267970CD2BA0B1D500E4FE38 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267970CC2BA0B1D500E4FE38 /* Item.swift */; };
@@ -48,6 +57,15 @@
 		264C74012BACEE1800DD7822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		264C74052BACF43300DD7822 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		264C740A2BACFA1300DD7822 /* GreetingsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsBar.swift; sourceTree = "<group>"; };
+		2656C4B42BAF20BE00D2EAEA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2656C4B72BAF254000D2EAEA /* QuickActionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsGridView.swift; sourceTree = "<group>"; };
+		2656C4B92BAF255400D2EAEA /* DashboardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardGridView.swift; sourceTree = "<group>"; };
+		2656C4BB2BAF258300D2EAEA /* OrderTypeGridViewAlura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridViewAlura.swift; sourceTree = "<group>"; };
+		2656C4C82BAF2C6E00D2EAEA /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		2656C4CA2BAF2CE500D2EAEA /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		2656C4CC2BAF318B00D2EAEA /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		2656C4CE2BAF5EF600D2EAEA /* ClientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientType.swift; sourceTree = "<group>"; };
+		2656C4D02BAF658400D2EAEA /* ClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoView.swift; sourceTree = "<group>"; };
 		267970C52BA0B1D500E4FE38 /* YourFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267970C82BA0B1D500E4FE38 /* YourFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFlowApp.swift; sourceTree = "<group>"; };
 		267970CA2BA0B1D500E4FE38 /* MyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
@@ -122,8 +140,30 @@
 			isa = PBXGroup;
 			children = (
 				264C740A2BACFA1300DD7822 /* GreetingsBar.swift */,
+				2656C4D02BAF658400D2EAEA /* ClientInfoView.swift */,
 			);
 			path = GreetingsBar;
+			sourceTree = "<group>";
+		};
+		2656C4B62BAF250500D2EAEA /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				2656C4B72BAF254000D2EAEA /* QuickActionsGridView.swift */,
+				2656C4B92BAF255400D2EAEA /* DashboardGridView.swift */,
+				2656C4BB2BAF258300D2EAEA /* OrderTypeGridViewAlura.swift */,
+				2656C4CC2BAF318B00D2EAEA /* OrderTypeView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		2656C4C32BAF2B8A00D2EAEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2656C4C82BAF2C6E00D2EAEA /* OrderType.swift */,
+				2656C4CA2BAF2CE500D2EAEA /* DataSourceMock.swift */,
+				2656C4CE2BAF5EF600D2EAEA /* ClientType.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		267970BC2BA0B1D500E4FE38 = {
@@ -149,13 +189,16 @@
 		267970C72BA0B1D500E4FE38 /* YourFlow */ = {
 			isa = PBXGroup;
 			children = (
-				264C74092BACFA0200DD7822 /* GreetingsBar */,
 				264C74042BACF40900DD7822 /* App */,
+				2656C4C32BAF2B8A00D2EAEA /* Model */,
+				264C74092BACFA0200DD7822 /* GreetingsBar */,
+				2656C4B62BAF250500D2EAEA /* GridView */,
 				264C74032BACF3E600DD7822 /* NavigationBar */,
 				267970CC2BA0B1D500E4FE38 /* Item.swift */,
 				26AC437C2BA33E6E005C0A20 /* GoogleService-Info.plist */,
 				267970CE2BA0B1D700E4FE38 /* Assets.xcassets */,
 				267970D02BA0B1D700E4FE38 /* Preview Content */,
+				2656C4B42BAF20BE00D2EAEA /* Launch Screen.storyboard */,
 			);
 			path = YourFlow;
 			sourceTree = "<group>";
@@ -301,6 +344,7 @@
 			files = (
 				267970D22BA0B1D700E4FE38 /* Preview Assets.xcassets in Resources */,
 				267970CF2BA0B1D700E4FE38 /* Assets.xcassets in Resources */,
+				2656C4B52BAF20BE00D2EAEA /* Launch Screen.storyboard in Resources */,
 				26AC437D2BA33E6E005C0A20 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,11 +370,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2656C4CF2BAF5EF600D2EAEA /* ClientType.swift in Sources */,
+				2656C4BA2BAF255400D2EAEA /* DashboardGridView.swift in Sources */,
 				267970CB2BA0B1D500E4FE38 /* MyContentView.swift in Sources */,
 				264C74022BACEE1800DD7822 /* ContentView.swift in Sources */,
 				267970CD2BA0B1D500E4FE38 /* Item.swift in Sources */,
+				2656C4C92BAF2C6E00D2EAEA /* OrderType.swift in Sources */,
 				2602AD872BAB23D400D99490 /* StanfordContentView.swift in Sources */,
+				2656C4B82BAF254000D2EAEA /* QuickActionsGridView.swift in Sources */,
 				264C740B2BACFA1300DD7822 /* GreetingsBar.swift in Sources */,
+				2656C4CD2BAF318B00D2EAEA /* OrderTypeView.swift in Sources */,
+				2656C4D12BAF658400D2EAEA /* ClientInfoView.swift in Sources */,
+				2656C4CB2BAF2CE600D2EAEA /* DataSourceMock.swift in Sources */,
+				2656C4BC2BAF258300D2EAEA /* OrderTypeGridViewAlura.swift in Sources */,
 				267970C92BA0B1D500E4FE38 /* YourFlowApp.swift in Sources */,
 				264C74062BACF43300DD7822 /* NavigationBar.swift in Sources */,
 			);
@@ -493,18 +545,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YourFlow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YourFlow - A SellersFlow app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,18 +580,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YourFlow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "YourFlow - A SellersFlow app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -10,16 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+//            NavigationBar()
+//                .padding()
+//            
+//            ScrollView(.vertical, showsIndicators: false) {
+//                VStack {
+//                    OrderTypeGridViewAlura()
+//                }
+//            }
             
-            Text("Hello, World!")
-                .padding()
-            
-//            @State var ClickableBox = RoundedRectangle(cornerRadius: 12).size(CGSize(width: 150.0, height: 150.0))
-//            HStack (content: {
-//                ClickableBox.fill(.orange)
-//                ClickableBox.fill(.red)
-//                
-//            })
+            ScrollView(.vertical, showsIndicators: false){
+                GreetingsBar()
+                    .padding()
+            }
         }
     }
 }
